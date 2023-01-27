@@ -8,10 +8,12 @@
     flex-direction: column;
 }
 a {
-        text-decoration: none;
-        color: rgba(0, 0, 255, 0.491);
-        width: 15%;
-    }
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.491);
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
 
 .icon {
     margin: 15px;
@@ -25,6 +27,8 @@ a {
     color: rgb(5, 0, 255);
     transform: scale(1.1);
 }
+
+
 @media screen and (min-width: 1920px) {
     body {
         height: 100vh;
@@ -38,10 +42,12 @@ a {
         text-decoration: none;
         color: rgba(0, 0, 255, 0.491);
         width: 20%;
+        display: flex;
+        justify-content: center;
     }
     .icon {
-        margin: 50px;
-        padding: 10px;
+        margin: 35px;
+        padding: 15px;
         transition: all .2s ease-in-out;
         font-size: 10em;
     }
