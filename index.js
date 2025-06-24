@@ -2,7 +2,7 @@ function main() {
   const searchForm = document.getElementById('searchForm');
   const searchBox = document.getElementById('searchBox');
   searchForm.addEventListener('submit', search);
-  urlBase = "https://www.google.com/search?q="
+  urlBase = "https://www.duckduckgo.com/search?q="
   searchBox.focus()
 }
 
